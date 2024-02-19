@@ -67,7 +67,9 @@
       Recent work
     </h1>
     <section class="bg-slate-300 p-11 h-lvh">
-      <div class="content-center justify-center flex flex-wrap bg-slate-400">
+      <div
+        class="content-center justify-center flex flex-wrap bg-slate-400 py-5"
+      >
         <div class="mx-auto flex justify-center flex flex-wrap">
           <img class="projectImg" src="https://placehold.co/1600x1000" alt="" />
         </div>
@@ -79,8 +81,8 @@
       </div>
     </section>
     <!-- FOOTER -->
-    <footer class="bg-slate-200 p-11 h-lvh">
-      <section>
+    <footer class="bg-slate-200 p-11 h-80">
+      <section class="">
         <h1>Tell me something cool or just troll me.</h1>
         <div id="contactMe">
           <ul>

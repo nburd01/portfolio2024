@@ -49,7 +49,7 @@
 .skills {
   display: flex;
 
-  width: 60%;
+  width: 50%;
 }
 
 .recentWork {
@@ -63,5 +63,5 @@
 .project {
   font-size: 45px;
 }
-.project-description {
-}
+/* .project-description {
+} */
