@@ -1,9 +1,10 @@
 <template>
   <div>
     <!-- LANDING -->
-    <section class="bg-black p-11 h-lvh text-zinc-50">
-      <div>
-        <h1 class="text-9xl font-semibold">I'm Niall Portfolio/24</h1>
+    <section class="bg-black p-20 h-lvh text-zinc-50">
+      <div class="headlineDiv h-2/3">
+        <span class="headline font-semibold">I'm Niall</span>
+        <span class="headline font-semibold">Portfolio/24</span>
       </div>
       <nav>
         <ul class="menu">
@@ -11,12 +12,13 @@
           <li>Contacts</li>
         </ul>
       </nav>
-      <div class="container">
-        <div>
-          Product Designer LAST UPDATE ✦ 2023 \/// ©ALEJANDRO ZARZALEJO
-          ((SCROLL))
+      <div>
+        <div class="productDesignerDiv">
+          <div class="productDesigner bg-blue">Product Designer</div>
+          <div class="productDesigner bg-black">
+            ✺Here you can see some of my latest designs and projects
+          </div>
         </div>
-        <div>✺Here you can see some of my latest designs and projects</div>
       </div>
     </section>
     <!-- INTRODUCTION TO ME -->
