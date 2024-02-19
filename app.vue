@@ -67,15 +67,18 @@
       Recent work
     </h1>
     <section class="bg-slate-300 p-11 h-lvh">
-      <h3>
-        THESE ARE SOME OF THE PROJECTS THAT I HAVE DONE IN RECENT YEARS,
-        ALTHOUGH I CANNOT SHOW THE MOST RECENT ONES DUE TO CONFIDENTIALITY.
-      </h3>
-      <div>
-        <div id="project"></div>
-        <div id="project name"></div>
+      <div class="content-center justify-center flex flex-wrap bg-slate-400">
+        <div class="mx-auto flex justify-center flex flex-wrap">
+          <img class="projectImg" src="https://placehold.co/1600x1000" alt="" />
+        </div>
+        <div class="container">
+          <div class="project">Roazhon Goal Academy</div>
+          <div class="project-description"></div>
+          <div>PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+        </div>
       </div>
     </section>
+    <!-- FOOTER -->
     <footer class="bg-slate-200 p-11 h-lvh">
       <section>
         <h1>Tell me something cool or just troll me.</h1>

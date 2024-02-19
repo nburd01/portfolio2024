@@ -55,3 +55,13 @@
 .recentWork {
   font-size: 10em;
 }
+
+.projectImg {
+  border-radius: 3em;
+}
+
+.project {
+  font-size: 45px;
+}
+.project-description {
+}
