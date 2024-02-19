@@ -61,11 +61,13 @@
       </div>
     </section>
     <!-- RECENT WORK -->
-    <h1
-      class="recentWork h-screen flex justify-center content-center flex-wrap bg-black text-zinc-50"
-    >
-      Recent work
-    </h1>
+    <section>
+      <h1
+        class="recentWork h-screen flex justify-center content-center flex-wrap bg-black text-zinc-50"
+      >
+        Recent work
+      </h1>
+    </section>
     <section class="bg-slate-300 p-11 h-lvh">
       <div
         class="content-center justify-center flex flex-wrap bg-slate-400 py-5"
