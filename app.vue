@@ -81,17 +81,16 @@
       </div>
     </section>
     <!-- FOOTER -->
-    <footer class="bg-slate-200 p-11 h-80">
-      <section class="">
-        <h1>Tell me something cool or just troll me.</h1>
-        <div id="contactMe">
-          <ul>
-            <li>instagram</li>
-            <li>Linktree</li>
-            <li>email</li>
-          </ul>
-        </div>
-      </section>
+
+    <footer class="bg-slate-200 p-11 h-96 flex justify-between">
+      <h1 class="footerTitle">Tell me something cool or just troll me.</h1>
+      <div id="contactMe">
+        <ul>
+          <li>instagram</li>
+          <li>Linktree</li>
+          <li>email</li>
+        </ul>
+      </div>
     </footer>
   </div>
 </template>

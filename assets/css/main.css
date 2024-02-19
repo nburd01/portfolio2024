@@ -60,8 +60,13 @@
   border-radius: 3em;
 }
 
+/* footer {
+} */
+
 .project {
   font-size: 45px;
 }
-/* .project-description {
-} */
+.footerTitle {
+  font-size: 5em;
+  width: 40%;
+}
