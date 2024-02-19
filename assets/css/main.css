@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .headline {
   font-size: 250px;
   padding: 0;
@@ -18,21 +17,16 @@
   top: 5%;
   right: 2%;
 }
-
 .menu li {
   padding: 1em;
   margin: 1em;
   background-color: #32323245;
   border-radius: 1em;
 }
-
 .productDesignerDiv {
-  display: flex;
-  /* justify-content: space-around; */
+  display: flex; /* justify-content: space-around; */
 }
-
 .productDesigner {
   font-size: 50px;
-  width: 50%;
-  /* background-color: aqua; */
+  width: 50%; /* background-color: aqua; */
 }
