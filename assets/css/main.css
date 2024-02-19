@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu {
+  background-color: aqua;
+  display: flex;
+  width: fit-content;
+  position: fixed;
+  top: 10%;
+  right: 2%;
+}
+.menu;
