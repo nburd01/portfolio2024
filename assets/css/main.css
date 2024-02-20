@@ -102,3 +102,7 @@ section {
   max-width: 40%;
   height: auto;
 }
+
+.gsapText {
+  padding: 30em;
+}
