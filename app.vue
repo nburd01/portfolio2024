@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div class="card latched">
-      <section class="card latched bg-black p-20 h-lvh text-zinc-50">
+      <section class="card latched bg-black p-20 text-zinc-50">
         <div class="headlineDiv h-2/3">
           <span class="headline font-semibold">I'm Niall</span>
           <span class="headline font-semibold">Portfolio/24</span>
@@ -24,8 +24,8 @@
     </div>
     <div class="spacer"></div>
 
+    <!-- INTRODUCTION TO ME -->
     <div class="card">
-      <!-- INTRODUCTION TO ME -->
       <section class="card bg-white p-11 h-lvh flex flex-col">
         <div class="container mx-auto px-80">
           <div class="">
@@ -58,8 +58,8 @@
     </div>
     <div class="spacer"></div>
 
+    <!-- WHAT I DO -->
     <div class="card">
-      <!-- WHAT I DO -->
       <section class="card skillsDiv bg-slate-400 p-11 h-lvh">
         <div class="skills flex flex-col">
           <span class="whatIDo">Product design</span>
@@ -71,24 +71,42 @@
     </div>
     <div class="spacer"></div>
 
-    <div class="card">
-      <!-- FOOTER -->
-
-      <footer class="card bg-slate-200 p-11 h-96 flex justify-between">
-        <h1 class="footerTitle">Tell me something cool or just troll me.</h1>
-        <div id="contactMe">
-          <ul>
-            <li>instagram</li>
-            <li>Linktree</li>
-            <li>email</li>
-          </ul>
-        </div>
-      </footer>
+    <!-- RECENT WORK1 -->
+    <div class="card bg-black">
+      <section>
+        <h1
+          class="recentWork h-screen flex justify-center content-center flex-wrap bg-black text-zinc-50"
+        >
+          Recent work
+        </h1>
+      </section>
     </div>
     <div class="spacer"></div>
-    <div class="card">
-      <!-- FOOTER -->
 
+    <!-- RECENT WORK2 -->
+    <div class="card">
+      <section class="card bg-slate-300 p-11 h-lvh">
+        <div
+          class="content-center justify-center flex flex-wrap bg-slate-400 py-5"
+        >
+          <div class="mx-auto flex justify-center flex flex-wrap">
+            <img
+              class="projectImg"
+              src="https://placehold.co/1600x1000"
+              alt=""
+            />
+          </div>
+          <div class="container">
+            <div class="project">Roazhon Goal Academy</div>
+            <div class="project-description"></div>
+            <div>PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="spacer"></div>
+    <!-- FOOTER -->
+    <div class="card">
       <footer class="card bg-slate-200 p-11 h-96 flex justify-between">
         <h1 class="footerTitle">Tell me something cool or just troll me.</h1>
         <div id="contactMe">
