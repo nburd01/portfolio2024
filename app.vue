@@ -1,7 +1,9 @@
 <template>
   <div class="gallery">
     <div class="card latched">
-      <section class="card latched bg-black p-20 text-zinc-50">
+      <section
+        class="card latched flex flex-col justify-start content-start bg-black p-20 text-zinc-50"
+      >
         <div class="headlineDiv h-2/3">
           <span class="headline font-semibold">I'm Niall</span>
           <span class="headline font-semibold">Portfolio/24</span>
@@ -72,14 +74,14 @@
     <div class="spacer"></div>
 
     <!-- RECENT WORK1 -->
-    <div class="card bg-black">
-      <section>
-        <h1
-          class="recentWork h-screen flex justify-center content-center flex-wrap bg-black text-zinc-50"
-        >
-          Recent work
-        </h1>
-      </section>
+    <div class="card bg-black w-full text-center justify-center">
+      <!-- <section> -->
+      <h1
+        class="recentWork flex justify-center content-center flex-wrap bg-black text-zinc-50"
+      >
+        Recent work
+      </h1>
+      <!-- </section> -->
     </div>
     <div class="spacer"></div>
 
