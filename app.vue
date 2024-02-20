@@ -73,15 +73,12 @@
     </div>
     <div class="spacer"></div>
 
-    <!-- RECENT WORK1 -->
+    <!-- GSAP -->
     <div class="card bg-black w-full text-center justify-center">
       <!-- <section> -->
-      <h1
-        class="recentWork flex justify-center content-center flex-wrap bg-black text-zinc-50"
-      >
-        Recent work
-      </h1>
-      <!-- </section> -->
+      <section id="zoom-out">
+        <h2>Recent work</h2>
+      </section>
     </div>
     <div class="spacer"></div>
 
@@ -126,6 +123,7 @@
 
 <script setup>
 import { onMounted } from "vue";
+import { gsap } from "gsap";
 
 onMounted(() => {
   var positions = [];
@@ -145,6 +143,20 @@ onMounted(() => {
         cards[i].classList.remove("latched");
       }
     }
+  });
+  const { innerHeight } = window;
+
+  // zoom-out
+  gsap.from("#zoom-out h2", {
+    scale: 50,
+    stagger: 0.25,
+    duration: 3,
+    scrollTrigger: {
+      trigger: "#zoom-out",
+      pin: true,
+      end: `+=${innerHeight * 1.3}`,
+      scrub: 3,
+    },
   });
 });
 </script>
