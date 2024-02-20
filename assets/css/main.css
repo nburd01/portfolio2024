@@ -77,9 +77,6 @@ section {
   position: relative;
   color: white;
   display: flex;
-  /* text-align: center;
-  align-items: center;
-  justify-content: center; */
 }
 
 .spacer {
@@ -98,4 +95,10 @@ section {
   + .spacer {
     height: 100vh;
   }
+}
+
+.portrait {
+  border-radius: 40%;
+  max-width: 40%;
+  height: auto;
 }

@@ -29,7 +29,7 @@
     <!-- INTRODUCTION TO ME -->
     <div class="card">
       <section class="card bg-white p-11 h-lvh flex flex-col">
-        <div class="container mx-auto px-80">
+        <div class="container mx-auto px-80 flex flex-col items-center">
           <div class="">
             <h1 class="aboutMeText text-black text-center">
               Crafting nice and useful things for people
@@ -54,7 +54,7 @@
             TEAM, FROM UX TO VISUAL PROCESSES, HELPING LAUNCH FUNCTIONALITIES
             FOCUSED WHERE REPSOL CURRENTLY OPERATES.
           </p>
-          <img src="" alt="" />
+          <img src="assets/img/portrait.webp" class="portrait" alt="" />
         </div>
       </section>
     </div>
