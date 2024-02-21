@@ -87,9 +87,9 @@
     <div class="spacer"></div>
 
     <!-- RECENT WORK2 -->
-    <div class="card">
-      <section class="card p-11 h-lvh">
-        <div class="content-center justify-center flex flex-wrap py-5">
+    <div class="card bg-black">
+      <section class="card p-11 pt-0 h-lvh">
+        <div class="content-baseline justify-center flex flex-wrap pb-5">
           <div class="mx-auto flex justify-center flex flex-wrap">
             <img
               class="projectImg"
@@ -101,6 +101,7 @@
             <div class="project">Roazhon Goal Academy</div>
             <div class="project-description"></div>
             <div>PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+            <font-awesome-icon icon="fa-solid fa-house" />
           </div>
         </div>
       </section>
