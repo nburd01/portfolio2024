@@ -87,7 +87,7 @@
     <div class="spacer"></div>
 
     <!-- RECENT WORK2 -->
-    <div class="card bg-black">
+    <div class="card bg-black mt-96">
       <section class="card p-11 pt-0 h-lvh">
         <div class="content-baseline justify-center flex flex-wrap pb-5">
           <div class="mx-auto flex justify-center flex flex-wrap">
@@ -100,7 +100,7 @@
           <div class="container">
             <div class="project">Roazhon Goal Academy</div>
             <div class="project-description"></div>
-            <div>PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
+            <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
             <font-awesome-icon icon="fa-solid fa-house" />
           </div>
         </div>
@@ -111,7 +111,7 @@
     <div class="">
       <footer class="footerCard roundedCard bg-white h-24 flex">
         <!-- <div class="flex p-11"> -->
-        <div class="flex flex-col justify-between bg-white z-10">
+        <div class="flex flex-col roundedCard justify-between bg-white z-10">
           <div class="flex flex-row justify-between p-11">
             <h1 class="footerTitle text-black">
               Tell me something cool or just troll me.

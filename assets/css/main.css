@@ -155,3 +155,6 @@ section,
 .test-2 {
   padding: 60px 10px;
 }
+#contactMe li {
+  text-decoration: underline;
+}
