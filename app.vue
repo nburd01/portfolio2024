@@ -108,11 +108,13 @@
     <div class="spacer"></div>
     <!-- FOOTER -->
     <div class="card">
-      <footer class="card footerCard roundedCard bg-slate-200 p-11 h-24 flex">
+      <footer class="card footerCard roundedCard bg-white p-11 h-24 flex">
         <div class="flex flex-row justify-between">
-          <h1 class="footerTitle">Tell me something cool or just troll me.</h1>
+          <h1 class="footerTitle text-black">
+            Tell me something cool or just troll me.
+          </h1>
           <div id="contactMe">
-            <ul>
+            <ul class="text-black">
               <li>instagram</li>
               <li>Linktree</li>
               <li>email</li>
