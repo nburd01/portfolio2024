@@ -88,8 +88,8 @@
 
     <!-- RECENT WORK2 -->
     <div class="card">
-      <section class="card bg-black p-11 h-lvh">
-        <div class="content-center justify-center flex flex-wrap bg-black py-5">
+      <section class="card p-11 h-lvh">
+        <div class="content-center justify-center flex flex-wrap py-5">
           <div class="mx-auto flex justify-center flex flex-wrap">
             <img
               class="projectImg"
