@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-section {
+section,
+.roundedCard {
   border-radius: 3em 3em 0 0;
 }
 .headline {
@@ -105,4 +106,49 @@ section {
 
 .gsapText {
   padding: 30em;
+}
+
+.footerCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  /*   height: 20%; */
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel {
+  background: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226 232 240);
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: black;
+  font-size: 121px;
+  cursor: pointer;
+}
+.test {
+  padding: 30px;
+}
+.test-2 {
+  padding: 60px 10px;
 }
