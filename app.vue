@@ -62,8 +62,8 @@
 
     <!-- WHAT I DO -->
     <div class="card">
-      <section class="card skillsDiv bg-slate-400 p-11 h-lvh">
-        <div class="skills flex flex-col">
+      <section class="card skillsDiv e6eaee p-11 h-lvh">
+        <div class="skills flex flex-col text-black">
           <span class="whatIDo">Product design</span>
           <span class="whatIDo">User experience</span>
           <span class="whatIDo">UI design</span>
