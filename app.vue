@@ -75,7 +75,7 @@
 
     <!-- GSAP -->
     <div
-      class="card roundedCard bg-black w-full h-full text-center justify-center"
+      class="card roundedCard last-card bg-black w-full h-full text-center justify-center"
     >
       <!-- <section> -->
       <section id="zoom-out">
@@ -107,102 +107,106 @@
     </div>
     <div class="spacer"></div>
     <!-- FOOTER -->
-    <div class="card">
-      <footer class="card footerCard roundedCard bg-white p-11 h-24 flex">
-        <div class="flex flex-row justify-between">
-          <h1 class="footerTitle text-black">
-            Tell me something cool or just troll me.
-          </h1>
-          <div id="contactMe">
-            <ul class="text-black">
-              <li>instagram</li>
-              <li>Linktree</li>
-              <li>email</li>
-            </ul>
-          </div>
-        </div>
-        <div class="marquee">
-          <div class="wrapper">
-            <div class="box">
-              <div class="test">N</div>
-            </div>
-            <div class="box">
-              <div class="test">I</div>
-            </div>
-            <div class="box">
-              <div class="test">A</div>
-            </div>
-            <div class="box">
-              <div class="test">L</div>
-            </div>
-            <div class="box">
-              <div class="test">L</div>
-            </div>
-            <div class="box">
-              <div class="test">.</div>
-            </div>
-            <div class="box">
-              <div class="test">B</div>
-            </div>
-            <div class="box">
-              <div class="test-2">U</div>
-            </div>
-            <div class="box">
-              <div class="test">R</div>
-            </div>
-            <div class="box">
-              <div class="test">D</div>
-            </div>
-            <div class="box">
-              <div class="test">O</div>
-            </div>
-            <div class="box">
-              <div class="test">N</div>
-            </div>
-            <div class="box">
-              <div class="test">@</div>
-            </div>
-            <div class="box">
-              <div class="test">G</div>
-            </div>
-            <div class="box">
-              <div class="test">M</div>
-            </div>
-            <div class="box">
-              <div class="test">A</div>
-            </div>
-            <div class="box">
-              <div class="test">I</div>
-            </div>
-            <div class="box">
-              <div class="test">L</div>
-            </div>
-            <div class="box">
-              <div class="test">.</div>
-            </div>
-            <div class="box">
-              <div class="test">C</div>
-            </div>
-            <div class="box">
-              <div class="test">O</div>
-            </div>
-            <div class="box">
-              <div class="test">M</div>
-            </div>
-            <div class="box">
-              <div class="test"></div>
-            </div>
-            <div class="box">
-              <div class="test"></div>
-            </div>
-            <div class="box">
-              <div class="test"></div>
+    <div class="">
+      <footer class="footerCard roundedCard bg-white h-24 flex">
+        <!-- <div class="flex p-11"> -->
+        <div class="flex flex-col justify-between bg-white z-10">
+          <div class="flex flex-row justify-between p-11">
+            <h1 class="footerTitle text-black">
+              Tell me something cool or just troll me.
+            </h1>
+            <div id="contactMe">
+              <ul class="text-black">
+                <li>instagram</li>
+                <li>Linktree</li>
+                <li>email</li>
+              </ul>
             </div>
           </div>
+          <div class="marquee bg-white p-11">
+            <div class="wrapper">
+              <div class="box">
+                <div class="test">N</div>
+              </div>
+              <div class="box">
+                <div class="test">I</div>
+              </div>
+              <div class="box">
+                <div class="test">A</div>
+              </div>
+              <div class="box">
+                <div class="test">L</div>
+              </div>
+              <div class="box">
+                <div class="test">L</div>
+              </div>
+              <div class="box">
+                <div class="test">.</div>
+              </div>
+              <div class="box">
+                <div class="test">B</div>
+              </div>
+              <div class="box">
+                <div class="test-2">U</div>
+              </div>
+              <div class="box">
+                <div class="test">R</div>
+              </div>
+              <div class="box">
+                <div class="test">D</div>
+              </div>
+              <div class="box">
+                <div class="test">O</div>
+              </div>
+              <div class="box">
+                <div class="test">N</div>
+              </div>
+              <div class="box">
+                <div class="test">@</div>
+              </div>
+              <div class="box">
+                <div class="test">G</div>
+              </div>
+              <div class="box">
+                <div class="test">M</div>
+              </div>
+              <div class="box">
+                <div class="test">A</div>
+              </div>
+              <div class="box">
+                <div class="test">I</div>
+              </div>
+              <div class="box">
+                <div class="test">L</div>
+              </div>
+              <div class="box">
+                <div class="test">.</div>
+              </div>
+              <div class="box">
+                <div class="test">C</div>
+              </div>
+              <div class="box">
+                <div class="test">O</div>
+              </div>
+              <div class="box">
+                <div class="test">M</div>
+              </div>
+              <div class="box">
+                <div class="test"></div>
+              </div>
+              <div class="box">
+                <div class="test"></div>
+              </div>
+              <div class="box">
+                <div class="test"></div>
+              </div>
+            </div>
+          </div>
         </div>
+        <!-- </div> -->
       </footer>
     </div>
-    <div class="spacer"></div>
+    <!-- <div class="spacer"></div> -->
   </div>
 </template>
 

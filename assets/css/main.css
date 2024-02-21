@@ -79,6 +79,9 @@ section,
   color: white;
   display: flex;
 }
+.last-card {
+  height: 200vh;
+}
 
 .spacer {
   width: 100%;
