@@ -86,10 +86,10 @@
     </div>
     <div class="spacer"></div>
 
-    <!-- RECENT WORK2 -->
+    <!-- Roazhon Goal Academy-->
     <div class="card mt70 bg-black">
       <section class="card p-11 pt-0 h-lvh">
-        <div class="content-baseline justify-start flex flex-wrap p-11">
+        <div class="content-baseline justify-start flex flex-wrap p-11 pt-0">
           <div class="mx-auto flex justify-center flex flex-wrap">
             <img class="projectImg" src="assets/img/rga.webp" alt="" />
           </div>
@@ -103,22 +103,8 @@
       </section>
     </div>
     <div class="spacer"></div>
-    <!-- RECENT WORK2 -->
-    <!-- <div class="card bg-black">
-      <section class="card p-11 pt-0 h-lvh">
-        <div class="content-baseline justify-start flex flex-wrap p-11">
-          <div class="mx-auto flex justify-center flex flex-wrap">
-            <img class="projectImg" src="assets/img/ctbhg.webp" alt="" />
-          </div>
-          <div class="container">
-            <div class="project">Roazhon Goal Academy</div>
-            <div class="project-description"></div>
-            <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
-            <font-awesome-icon icon="fa-solid fa-house" />
-          </div>
-        </div>
-      </section>
-    </div> -->
+    <!-- Centre Technique Bretagne -->
+
     <div class="spacer"></div>
     <!-- FOOTER -->
     <div class="">
