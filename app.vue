@@ -109,7 +109,7 @@
     <!-- FOOTER -->
     <div class="card">
       <footer class="card footerCard roundedCard bg-slate-200 p-11 h-24 flex">
-        <div>
+        <div class="flex flex-row justify-between">
           <h1 class="footerTitle">Tell me something cool or just troll me.</h1>
           <div id="contactMe">
             <ul>
