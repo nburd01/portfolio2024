@@ -168,3 +168,35 @@ section,
 .e6eaee {
   background-color: #e6eaee;
 }
+@media screen and (max-width: 1460px) {
+  .headline {
+    font-size: 60px;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    display: flex;
+    width: 100%;
+    line-height: 0.8em;
+  }
+  .frontEndDeveloperDiv {
+    display: flex;
+    width: 100%;
+    justify-items: center;
+  }
+  .frontEndDeveloper {
+    font-size: 50px;
+    width: 80%;
+  }
+  .whatIDo {
+    font-size: 2em;
+  }
+  .gsapText {
+    padding: 0;
+    font-size: 3em;
+  }
+}
+@media screen and (max-width: 768px) {
+  #zoom-out h2 {
+    font-size: 1em; /* Adjust the font size for smaller screens */
+  }
+}
