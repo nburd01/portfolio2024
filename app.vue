@@ -4,9 +4,9 @@
       <section
         class="card latched flex flex-col justify-start content-start bg-black p-20 text-zinc-50"
       >
-        <div class="headlineDiv h-2/3">
-          <span class="headline font-semibold">I'm Niall</span>
-          <span class="headline font-semibold">Portfolio/24</span>
+        <div class="headlineDiv h-1/3 md:h-2/3">
+          <h2 class="headline font-semibold">I'm Niall</h2>
+          <h2 class="headline font-semibold">Portfolio/24</h2>
         </div>
         <nav>
           <ul class="menu">
@@ -15,10 +15,22 @@
           </ul>
         </nav>
         <div>
-          <div class="frontEndDeveloperDiv">
-            <div class="frontEndDeveloper">Frontend Developer</div>
+          <div class="frontEndDeveloperDiv flex flex-col md:flex-row">
             <div class="frontEndDeveloper">
-              ✺Here you can see some of my latest designs and projects
+              <div class="flex sm:justify-start justify-center">
+                <span class="flex m-3 md:m-0">Frontend Developer</span>
+              </div>
+              <div class="flex sm:justify-start justify-center">
+                <span class="flex m-3 md:m-0">Business Analyst</span>
+              </div>
+            </div>
+
+            <div class="frontEndDeveloper">
+              <div class="flex sm:justify-start justify-center">
+                <span class="flex m-3 md:m-0">
+                  ✺Here you can see some of my latest designs and projects</span
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -29,7 +41,7 @@
     <!-- INTRODUCTION TO ME -->
     <div class="card">
       <section class="card bg-white p-11 h-lvh flex flex-col">
-        <div class="container mx-auto px-80 flex flex-col items-center">
+        <div class="container mx-auto px-0 sm:px-80 flex flex-col items-center">
           <div class="">
             <h1 class="aboutMeText text-black text-center">
               Crafting nice and useful things for people
@@ -79,15 +91,13 @@
     >
       <!-- <section> -->
       <section id="zoom-out">
-        <h2 class="flex text-center justify-center p-30 gsapText">
-          Recent work
-        </h2>
+        <h2 class="flex text-center justify-center gsapText">Recent work</h2>
       </section>
     </div>
     <div class="spacer"></div>
 
     <!-- Roazhon Goal Academy-->
-    <div class="card mt70 bg-black">
+    <div class="card bg-black">
       <section class="card p-11 pt-0 h-lvh">
         <div class="content-baseline justify-start flex flex-wrap p-11 pt-0">
           <div class="mx-auto flex justify-center flex flex-wrap">
@@ -206,7 +216,7 @@
         <!-- </div> -->
       </footer>
     </div>
-    <!-- <div class="spacer"></div> -->
+    <div class="spacer"></div>
   </div>
 </template>
 
@@ -244,7 +254,7 @@ onMounted(() => {
     scrollTrigger: {
       trigger: "#zoom-out",
       pin: false,
-      end: `+=${innerHeight * 3.3}`,
+      end: `+=${innerHeight * 1.3}`,
       scrub: 3,
     },
   });
