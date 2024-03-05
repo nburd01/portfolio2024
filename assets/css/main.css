@@ -29,7 +29,7 @@ section,
   right: 2%;
   z-index: 10;
 }
-.menu li {
+.menu .li span {
   padding: 1em;
   margin: 1em;
   background-color: #32323245;
@@ -113,7 +113,7 @@ section,
 
 .portrait {
   border-radius: 40%;
-  max-width: 40%;
+  max-width: 20%;
   height: auto;
 }
 

@@ -10,8 +10,20 @@
         </div>
         <nav>
           <ul class="menu">
-            <li>Projects</li>
-            <li>Contacts</li>
+            <NuxtLink
+              class="li"
+              :to="{ path: '/', hash: '#link' }"
+              @click="scrollToSection('#link')"
+            >
+              <span> Projects </span></NuxtLink
+            >
+            <NuxtLink
+              class="li"
+              :to="{ path: '/', hash: '#contact' }"
+              @click="scrollToSection('#contact')"
+            >
+              <span> Contacts </span></NuxtLink
+            >
           </ul>
         </nav>
         <div>
@@ -100,7 +112,7 @@
     <div class="spacer"></div>
 
     <!-- Roazhon Goal Academy-->
-    <div class="card bg-black">
+    <div class="card bg-black" id="link">
       <section class="card p-11 pt-0 h-lvh">
         <div class="content-baseline justify-start flex flex-wrap p-11 pt-0">
           <div class="mx-auto flex justify-center flex flex-wrap">
@@ -121,7 +133,7 @@
     <div class="spacer"></div>
     <!-- FOOTER -->
     <div class="">
-      <footer class="footerCard roundedCard bg-white h-24 flex">
+      <footer id="contact" class="footerCard roundedCard bg-white h-24 flex">
         <!-- <div class="flex p-11"> -->
         <div class="flex flex-col roundedCard justify-between bg-white z-10">
           <div class="flex flex-row justify-between p-11">
