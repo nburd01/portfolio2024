@@ -122,7 +122,7 @@
             <div class="project">Roazhon Goal Academy</div>
             <div class="project-description"></div>
             <div>✦ PRODUCT DESIGN / VISUAL DESIGN / CONCEPT</div>
-            <font-awesome-icon icon="fa-solid fa-house" />
+            <!-- <font-awesome-icon icon="fa-solid fa-house" /> -->
           </div>
         </div>
       </section>
