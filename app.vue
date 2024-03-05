@@ -2,9 +2,9 @@
   <div class="gallery">
     <div class="card latched">
       <section
-        class="card latched flex flex-col justify-start content-start bg-black p-20 text-zinc-50"
+        class="card latched flex flex-col justify-start content-start bg-black p-0 sm:p-20 text-zinc-50"
       >
-        <div class="headlineDiv h-1/3 md:h-2/3">
+        <div class="headlineDiv h-3/3 sm:1/3 md:h-2/3">
           <h2 class="headline font-semibold">I'm Niall</h2>
           <h2 class="headline font-semibold">Portfolio/24</h2>
         </div>
@@ -17,10 +17,10 @@
         <div>
           <div class="frontEndDeveloperDiv flex flex-col md:flex-row">
             <div class="frontEndDeveloper">
-              <div class="flex sm:justify-start justify-center">
+              <div class="flex sm:justify-start">
                 <span class="flex m-3 md:m-0">Frontend Developer</span>
               </div>
-              <div class="flex sm:justify-start justify-center">
+              <div class="flex sm:justify-start">
                 <span class="flex m-3 md:m-0">Business Analyst</span>
               </div>
             </div>
@@ -41,27 +41,27 @@
     <!-- INTRODUCTION TO ME -->
     <div class="card">
       <section class="card bg-white p-11 h-lvh flex flex-col">
-        <div class="container mx-auto px-0 sm:px-80 flex flex-col items-center">
+        <div class="container mx-auto px-0 sm:px-0 flex flex-col items-center">
           <div class="">
             <h1 class="aboutMeText text-black text-center">
               Crafting nice and useful things for people
             </h1>
           </div>
-          <p class="text-center text-black px-24 py-5">
+          <p class="text-center text-black p-0 sm:px-24 py-5">
             I AM CURRENTLY PART OF THE DESIGN TEAM AT EGGS DESIGN﻿ IN MADRID,
             AND I HAVE HAD THE OPPORTUNITY TO HELP CREATE DIGITAL EXPERIENCES
             AND SOLUTIONS FOR BIG BRANDS FOR THE LAST 20 YEARS OF MY LIFE. I
             CONSIDER MYSELF PASSIONATE ABOUT TECHNOLOGY, WORKING AT THE
             INTERSECTION BETWEEN BRANDING AND DIGITAL PRODUCT DESIGN.
           </p>
-          <p class="text-center text-black px-24 py-5">
+          <p class="text-center text-black p-0 sm:px-24 py-5">
             NOW, I WORK HAND IN HAND WITH BBVA DESIGN AND USER EXPERIENCE TEAM
             HELPING TO IMPROVE THEIR DIGITAL PRODUCTS BY BALANCING BUSINESS
             PRIORITIES WITH THOSE OF THE THOUSANDS OF USERS WHO USE THEIR
             SERVICES. FROM THE EARLY STAGES OF DEFINITION AND IDEATION, TO THE
             REVIEW OF INTERACTION FLOWS AND USER TESTING.
           </p>
-          <p class="text-center text-black px-24 py-5">
+          <p class="text-center text-black p-0 sm:px-24 py-5">
             PREVIOUSLY I HAD THE OPPORTUNITY TO COLLABORATE WITH REPSOL'S DESIGN
             TEAM, FROM UX TO VISUAL PROCESSES, HELPING LAUNCH FUNCTIONALITIES
             FOCUSED WHERE REPSOL CURRENTLY OPERATES.
@@ -91,6 +91,9 @@
     >
       <!-- <section> -->
       <section id="zoom-out">
+        <h2 class="flex text-center justify-center gsapText">Recent work</h2>
+      </section>
+      <section id="noZoom">
         <h2 class="flex text-center justify-center gsapText">Recent work</h2>
       </section>
     </div>

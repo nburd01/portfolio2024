@@ -45,11 +45,11 @@ section,
 }
 
 .aboutMeText {
-  font-size: 75px;
+  font-size: 4em;
 }
 
 .whatIDo {
-  font-size: 5em;
+  font-size: 7em;
 }
 
 .skillsDiv {
@@ -175,8 +175,47 @@ section,
 .e6eaee {
   background-color: #e6eaee;
 }
+span {
+  font-size: 0.75em;
+}
 
+@media screen and (max-width: 720px) {
+  span {
+    font-size: 0.75em;
+  }
+  .aboutMeText {
+    font-size: 2em;
+  }
+  .headlineDiv {
+    padding-top: 3em;
+    padding-left: 1em;
+  }
+}
+@media screen and (max-width: 900px) {
+  .skills {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1460px) {
+  #zoom-out {
+    display: flex;
+  }
+  #noZoom {
+    display: none;
+  }
+}
 @media screen and (max-width: 1460px) {
+  #zoom-out {
+    display: none;
+  }
+  #noZoom {
+    display: flex;
+  }
   .headline {
     font-size: 60px;
     padding: 0;
@@ -196,7 +235,7 @@ section,
     width: 80%;
   }
   .whatIDo {
-    font-size: 2em;
+    font-size: 4em;
   }
   .gsapText {
     padding: 0;
